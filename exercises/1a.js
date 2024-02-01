@@ -6,7 +6,7 @@
  * addEven(8)
  *
  * @param {number} n - The upper limit
- * @returns {number} The sum of the even numbers smaller than n
+ * @returns {number} The sum of the even numbers smaller than or equal to n
  */
 export function addEven(n) {
   let sum = 0
