@@ -14,5 +14,14 @@
  *                   Returns -1 if no such element is found or if the array is empty.
  */
 export function stepDown(numbers) {
-  // TODO
+  let answer = -1
+
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < numbers[i - 1]) {
+      answer = i
+      break
+    }
+  }
+
+  return answer
 }
