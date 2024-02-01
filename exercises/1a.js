@@ -12,7 +12,7 @@ export function addEven(n) {
   let sum = 0
   let i = 2
 
-  while (i < n) {
+  while (i <= n) {
     sum += i
     i += 2
   }
