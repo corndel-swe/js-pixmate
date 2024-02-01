@@ -11,7 +11,7 @@ describe('addEven', () => {
   })
 
   it('should handle a large number', () => {
-    assert.strictEqual(addEven(100), 2501)
+    assert.strictEqual(addEven(100), 2550)
   })
 
   it('should return 2 for n=2', () => {
